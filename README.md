@@ -38,6 +38,8 @@ Documentation for the whole VTS is at
 
 ## Building the Plugin from Source Code
 
+```git submodule update --init --recursive```
+
 Build instructions are the same as for the [VTS Browser Build Wrapper](https://github.com/melowntech/vts-browser-cpp-build-wrapper/blob/master/README.md).
 Just start in the root folder of this repository to ensure that the settings from CMakeLists.txt here are applied too.
 
