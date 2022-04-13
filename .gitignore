@@ -2,3 +2,4 @@
 /.idea
 /.vs
 /build*
+/cmake-build-*
