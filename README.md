@@ -3,6 +3,8 @@
 git clone --recursive https://github.com/a180285/vts-browser-unity-plugin.git
 ```
 
+### NOTE For Windows: To make symlinks work, you may need to enable developer mode in windows settings, and enable them during git installation. 
+
 # VTS Browser Integration Plugin For Unity 3D Game Engine
 
 [VTS Browser CPP](https://github.com/melowntech/vts-browser-cpp) is a collection of libraries that bring VTS client capabilities to your native applications.
