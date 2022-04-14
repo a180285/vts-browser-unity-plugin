@@ -1,3 +1,8 @@
+```bash
+# clone this repo
+git clone --recursive https://github.com/a180285/vts-browser-unity-plugin.git
+```
+
 # VTS Browser Integration Plugin For Unity 3D Game Engine
 
 [VTS Browser CPP](https://github.com/melowntech/vts-browser-cpp) is a collection of libraries that bring VTS client capabilities to your native applications.
