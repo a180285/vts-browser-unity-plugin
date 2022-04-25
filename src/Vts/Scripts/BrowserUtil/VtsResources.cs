@@ -28,6 +28,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using vts;
 
 // callbacks called by the vts library to upload assets to the application
@@ -325,6 +326,10 @@ public class VtsMesh : IDisposable
             um.vertices = vertices;
             um.uv = uv0;
             um.uv2 = uv1;
+            if (um.vertices.Length > UInt16.MaxValue)
+            {
+                um.indexFormat = IndexFormat.UInt32;
+            }
             um.SetIndices(indices, topology, 0);
             um.RecalculateBounds();
             um.RecalculateNormals();
