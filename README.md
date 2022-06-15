@@ -52,6 +52,14 @@ Documentation for the whole VTS is at
 Build instructions are the same as for the [VTS Browser Build Wrapper](https://github.com/melowntech/vts-browser-cpp-build-wrapper/blob/master/README.md).
 Just start in the root folder of this repository to ensure that the settings from CMakeLists.txt here are applied too.
 
+Or quick command
+```bash
+mkdir build
+cd build
+cmake -Ax64 ..
+cmake --build . --config relwithdebinfo
+```
+
 ## Using the Plugin in Unity
 
 Unity 2018 or newer is required.
